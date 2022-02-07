@@ -1,0 +1,8 @@
+[build]
+target = "x86_64-unknown-linux-gnu"
+
+[profile.dev]
+opt-level = 1
+
+[net]
+git-fetch-with-cli = true
